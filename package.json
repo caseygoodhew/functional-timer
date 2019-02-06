@@ -4,7 +4,7 @@
     "description": "Simple to use functional timer / stopwatch",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "./node_modules/.bin/mocha \"test/**/*.spec.js\" --reporter spec"
     },
     "repository": {
         "type": "git",
@@ -21,7 +21,7 @@
     },
     "homepage": "https://github.com/caseygoodhew/functional-timer#readme",
     "devDependencies": {
-        "jest": "^23.6.0",
-        "jest-extended": "^0.11.0"
+        "chai": "^4.2.0",
+        "mocha": "^5.2.0"
     }
 }
